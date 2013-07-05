@@ -1,0 +1,16 @@
+parameters:
+    database_driver: pdo_mysql
+    database_host: localhost
+    database_port: 8888
+    database_name: proyecto_de_prueba
+    database_user: luisd
+    database_password: pass
+    mailer_transport: smtp
+    mailer_host: pruebalocal
+    mailer_user: null
+    mailer_password: null
+    locale: en
+    secret: 110f269d22abfaa91084eb42107571d4d54
+    database_path: null
+
+

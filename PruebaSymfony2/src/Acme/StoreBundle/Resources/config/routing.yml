@@ -1,0 +1,15 @@
+acme_store_homepage:
+    path:  /store/{nombre}
+    defaults: { _controller: AcmeStoreBundle:Default:create, nombre: objeto }
+
+acme_read_homepage:
+    path:  /read/{id}
+    defaults: { _controller: AcmeStoreBundle:Default:read, id: 1 }
+    
+acme_store_image:
+    path:  /img
+    defaults: { _controller: AcmeStoreBundle:Default:img}
+    
+task_new:
+    path:  /task
+    defaults: { _controller: AcmeStoreBundle:Default:new}

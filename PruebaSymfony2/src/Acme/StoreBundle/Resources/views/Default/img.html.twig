@@ -1,0 +1,5 @@
+ {% extends '::base.html.twig' %}
+
+ {% block body %}
+     <form action="{{  path('acme_store_image') }}" method="POST" class="add_form" {{ form_enctype(pictureform) }}>
+ {% endblock %}

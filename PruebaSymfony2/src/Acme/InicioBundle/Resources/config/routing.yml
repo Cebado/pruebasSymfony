@@ -1,0 +1,7 @@
+acme_inicio_homepage:
+    path:  /
+    defaults: { _controller: AcmeInicioBundle:Inicio:index }
+    
+acme_contacto_homepage:
+    path:  /contacto
+    defaults: { _controller: AcmeInicioBundle:Inicio:contacto }
